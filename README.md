@@ -6,6 +6,10 @@
 
 PySimpleGUI Interface - Enter your name, click on the current date from the calendar, and choose what kind of nursing you are recording (sleep, feeding, or diaper). This will automatically save it to a database.
 
+## How it works:
+
+Data entry using Google Sheets, attaching a Google Script. Once this is deployed, it will output a URL that in turn accepts post requests. HTML code is used to built out a form that passes data to the Google Sheet.
+
 ## Limits:
 
 Currently developing an Android version for this, as well as adding features such as recording vitals, weight, and age. If you have any ideas, feel free to message me about it through my website https://yuvemaq.github.io/ymk.github.io/
